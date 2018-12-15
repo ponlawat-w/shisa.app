@@ -1,10 +1,39 @@
 [
     {
+        "url_title": "ryu.shisa.app",
         "title": {
-            "th": "<strong>kunkunsi.shisa.app</strong> - มายคุนคุนชี (My KunKunSī)",
-            "en": "<strong>kunkunsi.shisa.app</strong> - My KunKunSī",
-            "es": "<strong>kunkunsi.shisa.app</strong> - My KunKunSī",
-            "ja": "<strong>kunkunsi.shisa.app</strong> - My工工四（マイ・くんくんしー）"
+            "th": "บล็อกภาษาโอกินาว่า",
+            "en": "Okinawan Language Blog (Thai)",
+            "es": "Blog de Idioma Okinawa",
+            "ja": "うちなーぐちブログ"
+        },
+        "description": {
+            "th": "　บล็อกจดบันทึกความรู้ภาษาโอกินาว่า โดยใช้ภาษาไทยในการถ่ายทอด",
+            "en": "　Blog about Okinawan language. Articles are written in Thai.",
+            "es": "　Un blog sobre el idioma de Okinawa. Los artículos se escriben en tailandés.",
+            "ja": "　<ruby>沖縄<rt>うちなー</rt></ruby><ruby>口<rt>ぐち</rt></ruby>に関してのブログです。タイ語で書かれています。"
+        },
+        "href": "https://ryu.shisa.app",
+        "img": "/assets/img/products/ryu.png",
+        "links": [
+            {
+                "text": {
+                    "th": "ซอร์สโค้ดบนกิทฮับ",
+                    "en": "GitHub Source Code",
+                    "es": "Ver el código en GitHub",
+                    "ja": "GitHubのソースコード"
+                },
+                "href": "https://github.com/ponlawat-w/ryu.shisa.app/"
+            }
+        ]
+    },
+    {
+        "url_title": "kunkunsi.shisa.app",
+        "title": {
+            "th": "มายคุนคุนชี (My KunKunSī)",
+            "en": "My KunKunSī",
+            "es": "My KunKunSī",
+            "ja": "My工工四（マイ・くんくんしー）"
         },
         "description": {
             "th": "　เว็บแอปพลิเคชันสำหรับแต่งโน๊ตของเครื่องดนตรีซันชิน นอกจากการแต่งโน๊ตแล้วยังสามารถบันทึกและโหลดไฟล์โน๊ตคุนคุนชีจากคอมพิวเตอร์ได้ และยังรองรับการอ่านไฟล์โน๊ตจากบนกิทฮับด้วย<br><i>รองรับการใช้งานในบราวเซอร์บนคอมพิวเตอร์ Chrome, Firefox เท่านั้น</i>",
@@ -36,11 +65,12 @@
         ]
     },
     {
+        "url_title": "clock.shisa.app",
         "title": {
-            "th": "<strong>clock.shisa.app</strong> - นาฬิกา",
-            "en": "<strong>clock.shisa.app</strong> - Clock",
-            "es": "<strong>clock.shisa.app</strong> - Reloj",
-            "ja": "<strong>clock.shisa.app</strong> - 時計"
+            "th": "นาฬิกา",
+            "en": "Clock",
+            "es": "Reloj",
+            "ja": "時計"
         },
         "description": {
             "th": "　เว็บแอปไร้สาระเล็ก ๆ ที่ทำขึ้นมาเพื่อใช้เอง จุดประสงค์หลักคือใช้ปรับนาฬิกาข้อมือของตัวเองให้ตรงระดับวินาทีกับเซอร์เวอร์ก็ใช้แอปนี้ซิงค์เวลากับเซอร์เวอร์ก่อนแล้วค่อยปรับนาฬิกาตัวเองตาม",
