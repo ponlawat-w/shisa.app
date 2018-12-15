@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="{{page.language}}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="description" content="シーサーアプリ Shisa.APP めんそーれ">
+        <meta name="keywords" content="application, okinawa, shisa, アプリケーション, 沖縄, シーサー">
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/styles.css">
+        <title>{{site.data.strings.title[page.language]}}</title>
+    </head>
+    <body>
+        <div class="container-fluid" style="margin-top: 15px;">
+            <h1 class="text-center">
+                {{site.data.strings.heading[page.language]}}
+            </h1>
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="text-center">
+                        <img src="/assets/img/mensore.png" style="height: 8em; width: auto;">
+                    </div>
+                    <h3 style="padding: 10px 0;">
+                        {{site.data.strings.products[page.language]}}
+                    </h3>
+                    {% for product in site.data.products %}
+                        {% if forloop.index > 1 %}<hr>{% endif %}
+                        <div class="row">
+                            <div class="col-6 offset-xs-3 col-sm-2">
+                                <a href="{{product.href}}">
+                                    <img src="{{product.img}}" class="product-thumbnail"
+                                        title="{{product.title[page.language]}}">
+                                </a>
+                            </div>
+                            <div class="col-sm-10">
+                                <h5>
+                                    <a href="{{product.href}}">
+                                        {{product.title[page.language]}}
+                                    </a>
+                                </h5>
+                                <div>
+                                    {{product.description[page.language]}}
+                                </div>
+                                {% if product.links.size > 0 %}
+                                　
+                                    {% for link in product.links %}
+                                        {% if forloop.index > 1 %}・{% endif %}
+                                        <a href="{{link.href}}">{{link.text[page.language]}}</a>
+                                    {% endfor %}
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center" style="margin-bottom: 2.5em;">
+            {% include language-selector.html %}
+        </div>
+    </body>
+</html>
+

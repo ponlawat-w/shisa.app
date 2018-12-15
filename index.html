@@ -1,157 +1,29 @@
+---
+---
 <!doctype html>
-<html>
+<html lang="{{page.language}}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <meta name="description" content="シーサーアプリ Shisa.APP めんそーれ">
         <meta name="keywords" content="application, okinawa, shisa, アプリケーション, 沖縄, シーサー">
-        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <title>SHISA.APP - MENSŌRE</title>
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/styles.css">
+        <title>shisa.app</title>
     </head>
     <body>
         <div class="container-fluid" style="margin-top: 15px;">
             <h1 class="text-center">
-                <span lang="th">ไฮไซ สวัสดีโลก</span>
-                <span lang="en">Haisai World!</span>
-                <span lang="es">¡Haisai Mundo!</span>
-                <span lang="ja">はいさい<ruby>世<rt>し</rt></ruby><ruby>界<rt>けー</rt></ruby></span>
             </h1>
-            <div class="row">
-                <div class="col-md-10 offset-md-1">
-                    <div class="text-center">
-                        <img src="images/mensore.png" style="height: 8em; width: auto;">
-                    </div>
-                    <h3 style="padding: 10px 0;">
-                        <span lang="th">มีอะไรให้เล่นบ้าง</span>
-                        <span lang="en">What do we have?</span>
-                        <span lang="es">¿Qué tenemos?</span>
-                        <span lang="ja">ここに何がありますか？</span>
-                    </h3>
-                    <div class="row">
-                        <div class="col-6 offset-xs-3 col-sm-2">
-                            <a href="https://kunkunsi.shisa.app">
-                                <img src="images/kunkunsi.png" class="product-thumbnail"
-                                    title="My Kunkunsi 工工四">
-                            </a>
-                        </div>
-                        <div class="col-sm-10">
-                            <h5>
-                                <a href="https://kunkunsi.shisa.app">
-                                    <span lang="th"><strong>kunkunsi.shisa.app</strong> - มายคุนคุนชี (My KunKunSī)</span>
-                                    <span lang="en"><strong>kunkunsi.shisa.app</strong> - My KunKunSī</span>
-                                    <span lang="es"><strong>kunkunsi.shisa.app</strong> - My KunKunSī</span>
-                                    <span lang="ja"><strong>kunkunsi.shisa.app</strong> - My工工四（マイ・くんくんしー）</span>
-                                </a>
-                            </h5>
-                            <div>
-                            <span lang="th">
-                                　เว็บแอปพลิเคชันสำหรับแต่งโน๊ตของเครื่องดนตรีซันชิน
-                                นอกจากการแต่งโน๊ตแล้วยังสามารถบันทึกและโหลดไฟล์โน๊ตคุนคุนชีจากคอมพิวเตอร์ได้
-                                และยังรองรับการอ่านไฟล์โน๊ตจากบนกิทฮับด้วย<br>
-                                <i>รองรับการใช้งานในบราวเซอร์บนคอมพิวเตอร์ Chrome, Firefox เท่านั้น</i><br>
-                                　<a href="https://github.com/ponlawat-w/kunkunsi-app/">ซอร์สโค้ดบนกิทฮับ</a>・
-                                <a href="https://github.com/ponlawat-w/kunkunsi-app/wiki/%E4%BD%BF%E3%81%84%E6%96%B9">วิธีการใช้งาน (ภาษาญี่ปุ่น)</a>
-                            </span>
-                            <span lang="en">
-                                　My KunKunSī is a web application for writing musical notation of Sanshin, an Okinawan instrument.
-                                The application supports saving and loading kunkunsī file from user's PC,
-                                and reading kunkunsī file stored in GitHub as well.<br>
-                                <i>The application currently supports Chrome, Firefox on PC only.</i><br>
-                                　<a href="https://github.com/ponlawat-w/kunkunsi-app/">GitHub Source Code</a>・
-                                <a href="https://github.com/ponlawat-w/kunkunsi-app/wiki/%E4%BD%BF%E3%81%84%E6%96%B9">User Manual (Japanese)</a>
-                            </span>
-                            <span lang="es">
-                                　My KunKunSī es una aplicación web para escribir notación musical de Sanshin, un instrumento de Okinawa.
-                                Usuario puede guardar la nota escrita en su ordenador, y abrirla también.
-                                Además, también se puede cargar las notas guardadas desde GitHub.<br>
-                                <i>La aplicación se funciona solamente en el ordenador con navegador de Chrome o Firefox.</i><br>
-                                　<a href="https://github.com/ponlawat-w/kunkunsi-app/">Ver el código en GitHub</a>・
-                                <a href="https://github.com/ponlawat-w/kunkunsi-app/wiki/%E4%BD%BF%E3%81%84%E6%96%B9">Manual de Usuario (japonés)</a>
-                            </span>
-                            <span lang="ja">
-                                　Ｍｙ工工四は沖縄三線の楽譜の「<ruby>工<rt>くん</rt></ruby><ruby>工<rt>くん</rt></ruby><ruby>四<rt>しー</rt></ruby>」を作成するツールです。
-                                エディターをはじめ、パソコンに工工四を保存でき、パソコンから読み込んで編集する事もできます。
-                                それに、GitHubのレポジトリーで保存している工工四ファイルも読み込めます。<br>
-                                <i>現在このアプリは、パソコンでChromeかFirefoxしか対応しません。</i><br>
-                                　<a href="https://github.com/ponlawat-w/kunkunsi-app/">GitHubのソースコード</a>・
-                                <a href="https://github.com/ponlawat-w/kunkunsi-app/wiki/%E4%BD%BF%E3%81%84%E6%96%B9">アプリの使い方（日本語のみ）</a>
-                            </span>
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-6 offset-xs-3 col-sm-2">
-                            <a href="https://clock.shisa.app">
-                                <img src="images/clock.png" class="product-thumbnail"
-                                    title="Clock">
-                            </a>
-                        </div>
-                        <div class="col-sm-10">
-                            <h5>
-                                <a href="https://clock.shisa.app">
-                                    <span lang="th"><strong>clock.shisa.app</strong> - นาฬิกา</span>
-                                    <span lang="en"><strong>clock.shisa.app</strong> - Clock</span>
-                                    <span lang="es"><strong>clock.shisa.app</strong> - Reloj</span>
-                                    <span lang="ja"><strong>clock.shisa.app</strong> - 時計</span>
-                                </a>
-                            </h5>
-                            <div>
-                            <span lang="th">
-                                　เว็บแอปไร้สาระเล็ก ๆ ที่ทำขึ้นมาเพื่อใช้เอง จุดประสงค์หลักคือใช้ปรับนาฬิกาข้อมือของตัวเองให้ตรงระดับวินาทีกับเซอร์เวอร์
-                                ก็ใช้แอปนี้ซิงค์เวลากับเซอร์เวอร์ก่อนแล้วค่อยปรับนาฬิกาตัวเองตาม<br>
-                                　<a href="https://github.com/ponlawat-w/ng-clock/">ซอร์สโค้ดบนกิทฮับ</a>
-                            </span>
-                            <span lang="en">
-                                　A web application that might seem meaningless. The main purpose is personal use
-                                for synchronising my watch to be precisely accurate with server time.<br>
-                                　<a href="https://github.com/ponlawat-w/ng-clock/">GitHub Source Code</a>
-                            </span>
-                            <span lang="es">
-                                　Creo que esta aplicación no tiene sentido para otras personas.
-                                Principalmente, la desarrollé para utilización personal (mía). La utilizo para
-                                sincronizar mi reloj precisamente con el servidor. Y ya está.<br>
-                                　<a href="https://github.com/ponlawat-w/ng-clock/">Ver en GitHub</a>
-                            </span>
-                            <span lang="ja">
-                                　くだらないと思うんですけど、基本的にこのウェブアプリは個人用です（自分用）。
-                                何ができるかと言いますと、サーバーの時刻を表示させて、自分の腕時計を秒まで合わせるためです。
-                                自分の時計は秒が違って気になる方がいらっしゃいましたら、どうぞご利用ください。<br>
-                                　<a href="https://github.com/ponlawat-w/ng-clock/">GitHubのソースコード</a>
-                            </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="text-center">
+                <img src="/assets/img/mensore.png" style="height: 8em; width: auto;">
             </div>
         </div>
-        <hr>
-        <div class="text-center" style="margin-bottom: 2.5em;">
-            <a href="?th">ภาษาไทย</a>
-            <a href="?en">English</a>
-            <a href="?es">español</a>
-            <a href="?ja">日本語</a>
-        </div>
-        <div id="spinner" style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; background-color: rgba(0, 0, 0, 0.6);">
-            <style>
-            .loader {
-                border: 5px solid #f3f3f3;
-                border-top: 5px solid #860b0b;
-                border-radius: 50%;
-                width: 50px;
-                height: 50px;
-                animation: spin 1s linear infinite;
-                margin: 30vh auto;
-            }
-
-            @keyframes spin {
-                0% { transform: rotate(0deg); }
-                100% { transform: rotate(360deg); }
-            }
-            </style>
-            <div class="loader"></div>
-        </div>
-        <script src="script.js"></script>
+        <h4 class="text-center" style="margin: 1em 0 2.5em 0;">
+            {% for language in site.data.languages %}
+                <a href="/index/{{language.code}}.html" style="margin: 0 0.2em;">{{language.name}}</a>
+            {% endfor %}
+        </h4>
     </body>
 </html>
+

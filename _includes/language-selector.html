@@ -1,0 +1,8 @@
+{% for language in site.data.languages %}
+    {% if forloop.index > 1 %}・{% endif %}
+    {% if language.code == page.language %}
+        <strong>{{language.name}}</strong>
+    {% else %}
+        <a href="/index/{{language.code}}.html">{{language.name}}</a>
+    {% endif %}
+{% endfor %}
