@@ -4,13 +4,11 @@
         "title": {
             "th": "บล็อกภาษาโอกินาว่า",
             "en": "Okinawan Language Blog (Thai)",
-            "es": "Blog de Idioma Okinawa",
             "ja": "うちなーぐちブログ"
         },
         "description": {
             "th": "　บล็อกจดบันทึกความรู้ภาษาโอกินาว่า โดยใช้ภาษาไทยในการถ่ายทอด",
             "en": "　Blog about Okinawan language. Articles are written in Thai.",
-            "es": "　Un blog sobre el idioma de Okinawa. Los artículos se escriben en tailandés.",
             "ja": "　<ruby>沖縄<rt>うちなー</rt></ruby><ruby>口<rt>ぐち</rt></ruby>に関してのブログです。タイ語で書かれています。"
         },
         "href": "https://ryu.shisa.app",
@@ -20,7 +18,6 @@
                 "text": {
                     "th": "ซอร์สโค้ดบนกิทฮับ",
                     "en": "GitHub Source Code",
-                    "es": "Ver el código en GitHub",
                     "ja": "GitHubのソースコード"
                 },
                 "href": "https://github.com/ponlawat-w/ryu.shisa.app/"
@@ -32,13 +29,11 @@
         "title": {
             "th": "มายคุนคุนชี (My KunKunSī)",
             "en": "My KunKunSī",
-            "es": "My KunKunSī",
             "ja": "My工工四（マイ・くんくんしー）"
         },
         "description": {
             "th": "　เว็บแอปพลิเคชันสำหรับแต่งโน๊ตของเครื่องดนตรีซันชิน นอกจากการแต่งโน๊ตแล้วยังสามารถบันทึกและโหลดไฟล์โน๊ตคุนคุนชีจากคอมพิวเตอร์ได้ และยังรองรับการอ่านไฟล์โน๊ตจากบนกิทฮับด้วย<br><i>รองรับการใช้งานในบราวเซอร์บนคอมพิวเตอร์ Chrome, Firefox เท่านั้น</i>",
             "en": "　My KunKunSī is a web application for writing musical notation of Sanshin, an Okinawan instrument. The application supports saving and loading kunkunsī file from user's PC, and reading kunkunsī file stored in GitHub as well.<br><i>The application currently supports Chrome, Firefox on PC only.</i>",
-            "es": "　My KunKunSī es una aplicación web para escribir notación musical de Sanshin, un instrumento de Okinawa. Usuario puede guardar la nota escrita en su ordenador, y abrirla también. Además, también se puede cargar las notas guardadas desde GitHub.<br><i>La aplicación se funciona solamente en el ordenador con navegador de Chrome o Firefox.</i>",
             "ja": "　Ｍｙ工工四は沖縄三線の楽譜の「<ruby>工<rt>くん</rt></ruby><ruby>工<rt>くん</rt></ruby><ruby>四<rt>しー</rt></ruby>」を作成するツールです。エディターをはじめ、パソコンに工工四を保存でき、パソコンから読み込んで編集する事もできます。それに、GitHubのレポジトリーで保存している工工四ファイルも読み込めます。<br><i>現在このアプリは、パソコンでChromeかFirefoxしか対応しません。</i>"
         },
         "href": "https://kunkunsi.shisa.app",
@@ -48,7 +43,6 @@
                 "text": {
                     "th": "ซอร์สโค้ดบนกิทฮับ",
                     "en": "GitHub Source Code",
-                    "es": "Ver el código en GitHub",
                     "ja": "GitHubのソースコード"
                 },
                 "href": "https://github.com/ponlawat-w/kunkunsi-app/"
@@ -57,7 +51,6 @@
                 "text": {
                     "th": "วิธีการใช้งาน (ภาษาญี่ปุ่น)",
                     "en": "User Manual (Japanese)",
-                    "es": "Manual de Usuario (japonés)",
                     "ja": "アプリの使い方（日本語のみ）"
                 },
                 "href": "https://github.com/ponlawat-w/kunkunsi-app/wiki/%E4%BD%BF%E3%81%84%E6%96%B9"
@@ -69,13 +62,11 @@
         "title": {
             "th": "นาฬิกา",
             "en": "Clock",
-            "es": "Reloj",
             "ja": "時計"
         },
         "description": {
             "th": "　เว็บแอปไร้สาระเล็ก ๆ ที่ทำขึ้นมาเพื่อใช้เอง จุดประสงค์หลักคือใช้ปรับนาฬิกาข้อมือของตัวเองให้ตรงระดับวินาทีกับเซอร์เวอร์ก็ใช้แอปนี้ซิงค์เวลากับเซอร์เวอร์ก่อนแล้วค่อยปรับนาฬิกาตัวเองตาม",
             "en": "　A web application that might seem meaningless. The main purpose is personal use for synchronising my watch to be precisely accurate with server time.",
-            "es": "　Creo que esta aplicación no tiene sentido para otras personas. Principalmente, la desarrollé para utilización personal (mía). La utilizo para sincronizar mi reloj precisamente con el servidor. Y ya está.",
             "ja": "　くだらないと思うんですけど、基本的にこのウェブアプリは個人用です（自分用）。何ができるかと言いますと、サーバーの時刻を表示させて、自分の腕時計を秒まで合わせるためです。自分の時計は秒が違って気になる方がいらっしゃいましたら、どうぞご利用ください。"
         },
         "href": "https://clock.shisa.app",
@@ -85,10 +76,34 @@
                 "text": {
                     "th": "ซอร์สโค้ดบนกิทฮับ",
                     "en": "GitHub Source Code",
-                    "es": "Ver el código en GitHub",
                     "ja": "GitHubのソースコード"
                 },
                 "href": "https://github.com/ponlawat-w/ng-clock/"
+            }
+        ]
+    },
+    {
+        "url_title": "th2deva.shisa.app",
+        "title": {
+            "th": "th2deva - พิมพ์เทวนาครีด้วยแป้นพิมพ์ไทย",
+            "en": "th2deva - Type Devanagari with Thai Keyboard",
+            "ja": "th2deva - タイ語キーボードでデーヴァナーガリー文字を記入"
+        },
+        "description": {
+            "th": "　เว็บแอปพลิเคชันสำหรับใช้แป้นพิมพ์ภาษาไทยพิมพ์อักษรเทวนาครี",
+            "en": "　A web application that allows you to type Devanagari script using Thai keyboard.",
+            "ja": "　タイ語のキーボードでデーヴァナーガリー文字を記入するウェブアプリケーションであります。"
+        },
+        "href": "https://th2deva.shisa.app",
+        "img": "/assets/img/products/th2deva.png",
+        "links": [
+            {
+                "text": {
+                    "th": "ซอร์สโค้ดบนกิทฮับ",
+                    "en": "GitHub Source Code",
+                    "ja": "GitHubのソースコード"
+                },
+                "href": "https://github.com/ponlawat-w/th2deva/"
             }
         ]
     }

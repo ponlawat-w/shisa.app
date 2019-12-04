@@ -2,25 +2,21 @@
     "welcome": {
         "th": "ยินดีต้อนรับ",
         "en": "Welcome!",
-        "es": "¡Bienvenido!",
         "ja": "めんそーれ！"
     },
     "title": {
         "th": "◆shisa.app◆ ยินดีต้อนรับ",
         "en": "◆shisa.app◆ Welcome!",
-        "es": "◆shisa.app◆ ¡Bienvenido!",
         "ja": "◆shisa.app◆ めんそーれ！"
     },
     "heading": {
         "th": "ไฮไซ สวัสดีโลก",
         "en": "Haisai World!",
-        "es": "¡Haisai Mundo!",
         "ja": "はいさい<ruby>世<rt>し</rt></ruby><ruby>界<rt>けー</rt></ruby>"
     },
     "products": {
         "th": "มีอะไรให้เล่นบ้าง",
         "en": "What do we have?",
-        "es": "¿Qué tenemos?",
         "ja": "ここに何がありますか？"
     }
 }
